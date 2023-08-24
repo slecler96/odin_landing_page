@@ -1,5 +1,140 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+/* First layer (navigation ibar + hero) */
+.first_container {
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+
 .nav_foot_hero {
     background-color:#1F2937;
-    display: flex;
-  }
+    color:#F9FAF8;
+}
 
+/* Navigation bar */
+.nav_bar {
+    display: flex;
+    padding: 20px 400px 20px 10px;
+    align-items: center;
+}
+
+
+.nav_bar h3 {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    text-align: left;
+    padding-left: 510px;
+}
+
+.nav_links {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 105px 0px 0px;  
+}
+
+.nav_links a {
+    font-size: 18px;
+    padding: 10px;
+    color: #E5E7EB;
+    text-decoration: none; 
+}
+
+/* hero */
+.hero {
+    flex-direction: row;
+    display: flex;
+    flex: 1; 
+    justify-content: center;
+}
+
+.hero_text {
+    flex-basis: 400px;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 150px;
+    align-items: left;
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+}
+
+.hero_text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero_text button {
+    display: block;
+    text-align: center;
+    width: 100px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 7px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+
+.hero_image img {
+    width:  271px;
+    height: 298px;
+}
+
+
+
+/* Information layout */
+.seconds_container {
+    display: flex;
+}
+
+.lay2_title h2 {
+    flex: 1;
+    font-size: 36px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.lay2_images {
+    flex: 1;
+    justify-content: center;
+    display: flex
+}
+
+.lay2_images img {
+    flex: 1;
+    width: 200px;
+}
+
+.third_container {
+    display: flex;
+}
+
+
+
+.fourth_container {
+    color:#F9FAF8;
+    display: flex;
+}
+
+.sign_up_bar{
+    background-color:#3882F6;
+    display: flex;
+}
+
+
+/* Footer */
+.footer{
+    text-align: center;
+}
