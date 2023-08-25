@@ -21,8 +21,11 @@ body {
 
 /* Navigation bar */
 .nav_bar {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 50px;
     display: flex;
-    padding: 20px 400px 20px 10px;
+    flex:1;
     align-items: center;
 }
 
@@ -32,13 +35,11 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     text-align: left;
-    padding-left: 510px;
 }
 
 .nav_links {
     display: flex;
     margin-left: auto;
-    padding: 0px 105px 0px 0px;  
 }
 
 .nav_links a {
@@ -50,17 +51,19 @@ body {
 
 /* hero */
 .hero {
-    flex-direction: row;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 20px;
     display: flex;
     flex: 1; 
     justify-content: center;
+    align-items: center;
 }
 
 .hero_text {
-    flex-basis: 400px;
     font-size: 18px;
     color: #E5E7EB;
-    margin-right: 150px;
+    margin-right: 50px;
     align-items: left;
     text-align: left;
     flex-direction: column;
@@ -75,7 +78,6 @@ body {
 }
 
 .hero_text button {
-    display: block;
     text-align: center;
     width: 100px;
     border: none;
@@ -88,7 +90,7 @@ body {
 
 
 .hero_image img {
-    width:  271px;
+    width:  500px;
     height: 298px;
 }
 
@@ -97,6 +99,8 @@ body {
 /* Information layout */
 .seconds_container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lay2_title h2 {
@@ -107,9 +111,10 @@ body {
 }
 
 .lay2_images {
-    flex: 1;
-    justify-content: center;
-    display: flex
+    justify-content: space-around;
+    display: flex;
+    margin: 5px 20px 0px 20px;
+    padding: 50px 300px;
 }
 
 .lay2_images img {
@@ -117,24 +122,67 @@ body {
     width: 200px;
 }
 
-.third_container {
-    display: flex;
+.lay2_images p {
+    flex: 1;
+    color: #1F2937;
+    font-weight: 100;
 }
 
 
+/* quote section*/
 
-.fourth_container {
+.third_container {
+    flex-direction: column;
+    background-color:#E5E7EB;
+    display: flex;
+    padding: 100px 300px 100px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* sign up bar */
+
+.sign_up_bar {
+    background-color:#3882F6;
     color:#F9FAF8;
     display: flex;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px 150px;
+    background-color: #3882F6 ;
+    margin: 50px 300px;
 }
 
-.sign_up_bar{
-    background-color:#3882F6;
-    display: flex;
+.sign_up_message {
+    flex: 3;
+    text-align: left;
 }
 
+.sign_up_button button {
+    flex: 1;
+    text-align: center;
+    width: 100px;
+    border: 2px solid white;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 7px;
+    color: #F9FAF8;
+    font-weight: bold;   
+}
 
 /* Footer */
 .footer{
     text-align: center;
+    padding: 20px
 }
