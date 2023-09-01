@@ -2,4 +2,4 @@
 Project aiming at creating a web page using html and css, in the frame of the Odin Project training course
 
 
-Images credit : Allrecipes
+Image credit : The Odin Project
